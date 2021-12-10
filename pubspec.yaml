@@ -1,0 +1,29 @@
+name: note
+description: Notes app which brings an example usage of firebase auth and firestore
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0-0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: "1.8.0"
+  firebase_auth: "^3.1.4"
+  cloud_firestore: "2.5.4"
+  flutter_bloc: ^7.3.1
+  equatable: ^2.0.3
+  formz: ^0.4.0
+  provider: ^6.0.1
+  intl: ^0.17.0
+  url_launcher: ^6.0.12
+  flutter_native_splash: ^1.3.1
+  flutter_hooks: ^0.18.0
+  flutter_keyboard_visibility: ^5.1.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: VarelaRound
+      fonts:
+        - asset: assets/fonts/VarelaRound-Regular.ttf
